@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* 기본 테이블 스타일 */
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+/* 테이블 헤더 */
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+/* 테이블 헤더 배경색 */
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+  background-color: #f8f9fa;
+}
+
+/* 줄무늬 테이블 (Odd rows) */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* 호버 효과 */
+.table-hover tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.075);
+}
+
+/* 테이블 경계선 */
+.table-bordered {
+  border: 1px solid #dee2e6;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #dee2e6;
+}
+
+/* 작은 테이블 */
+.table-sm th,
+.table-sm td {
+  padding: 0.3rem;
+}
+
+/* 테이블 배경색 (Light/Dark) */
+.table-dark {
+  color: #fff;
+  background-color: #343a40;
+}
+
+.table-dark th,
+.table-dark td,
+.table-dark thead th {
+  border-color: #454d55;
+}
+
+.table-light {
+  color: #212529;
+  background-color: #f8f9fa;
+}

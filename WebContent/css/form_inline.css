@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* Form Inline 스타일 */
+.form-inline {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+/* Form Inline 요소 스타일 */
+.form-inline .form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+}
+
+.form-inline .form-control {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+.form-inline .form-control,
+.form-inline .input-group-text {
+  margin-bottom: 0;
+}
+
+.form-inline .btn {
+  margin-right: 1rem;
+}

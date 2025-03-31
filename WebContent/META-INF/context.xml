@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context>
+	<Resource 
+		name="jdbc/Project1"
+		auth="Container"
+		type="javax.sql.DataSource"
+		username="root"
+		password="12345"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+		url="jdbc:mysql://192.168.100.217:3306/project_1"
+		maxTotal="50"
+	/>
+</context>

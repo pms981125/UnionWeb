@@ -1,0 +1,68 @@
+@charset "UTF-8";
+td a { /* a 태그 꾸밈 효과 제거 */
+	color:#494949;
+	text-decoration: none; 
+} 
+
+table.board_list_table {
+	border-top:3px solid #69737C;
+	/* margin-top: 20px;
+    margin-left:15px;
+    margin-right:15px;
+    margin-bottom:0px; */
+    margin: 30px auto;
+    width:80%;
+    border-collapse:collapse;
+}
+
+/* .board_list_table caption {} */
+
+/* .board_list_table tr{} */
+
+.board_list_table th {
+	font-size:15px;
+	font-weight:bolder;
+	color:#4D5B67;
+    background-color:#BDBEC0;
+    padding-top:6px;
+    padding-bottom:6px;
+    text-align:center;
+    vertical-align:top;
+}
+
+.board_list_table th:nth-child(1) {
+	width: 60%;
+}
+
+.board_list_table th:nth-child(2) {
+	width: 15%;
+}
+
+.board_list_table th:nth-child(3) {
+	width: 5%;
+}
+
+.board_list_table th:nth-child(4) {
+	width: 5%;
+}
+
+.board_list_table th:nth-child(5) {
+	width: 15%;
+}
+
+
+.board_list_table td {
+	font-size:15px;
+	color:#494949;
+    vertical-align:middle;
+    border-bottom:1px solid #E0E0E0;
+    padding-top:4px;
+    padding-bottom:4px;
+    text-align: center;
+}
+
+/* .board_list_table tbody {}
+
+.board_list_table thead {}
+
+.board_list_table tfoot {} 복사? */

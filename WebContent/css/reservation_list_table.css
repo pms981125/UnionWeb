@@ -1,0 +1,27 @@
+@charset "UTF-8";
+table.reservation_list_table {
+	margin: 30px auto;
+    width: 80%;
+    border-collapse:collapse;
+    text-align: center;
+}
+
+td a { /* a 태그 꾸밈 효과 제거 */
+	color:#494949;
+	text-decoration: none; 
+} 
+
+.table thead th {
+	background: #2B56BF;
+    color: #fff;
+}
+
+.table tr {
+	border-color: #5B86EF;
+}
+
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-bottom: 1px solid #5B86EF;
+}

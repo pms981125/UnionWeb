@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+table.user_list_table {
+	border-top:3px solid #69737C;
+	/* margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px; */
+    margin: 30px auto;
+    width:70%;
+    border-collapse:collapse;
+}
+
+.user_list_table th {
+	font-size:15px;
+	font-weight:bolder;
+	color:#4D5B67;
+    background-color:#BDBEC0;
+    padding-top:6px;padding-bottom:6px;
+    text-align:center;
+    vertical-align:top;
+}
+
+.user_list_table th:nth-child(1) {
+	width: 15%;
+}
+
+.user_list_table th:nth-child(2) {
+	width: 45%;
+}
+
+.user_list_table th:nth-child(3) {
+	width: 20%;
+}
+
+.user_list_table th:nth-child(4) {
+	width: 20%;
+}
+
+.user_list_table td {
+	font-size:15px;
+	color:#494949;
+    vertical-align:middle;
+    border-bottom:1px solid #E0E0E0;
+    padding-top:4px;
+    padding-bottom:4px;
+    text-align: center;
+}
+
+/* .board_list_table tbody {}
+
+.board_list_table thead {}
+
+.board_list_table tfoot {} 복사? */
